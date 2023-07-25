@@ -1,0 +1,168 @@
+@charset "UTF-8";
+*{
+    text-decoration: none;
+    color: rgb(39, 39, 39);
+}
+body{
+    font-family: "Hiragino Kaku Gothic Pro";
+    font-size: 15px;
+    border-top: 10px solid #378bf7 !important;
+    background: linear-gradient(to right, #f1f1f1,#74f6dc);
+}
+.logo{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.logo p{
+    text-decoration: double;
+}
+.logo img{
+    width: 100px;
+    height: auto;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+#js-menu:hover{
+    background-color: transparent;
+}
+.header{
+    width: 1200px;
+    margin: 0 auto;    
+}
+.header .menu{
+    font-weight: bold;
+}
+.header ul{
+    list-style: none;
+    display: flex;
+}
+.header ul li{
+    width: 300px;
+    text-align: center;
+    border-right: 1px solid rgb(0, 0, 0);
+}
+.header ul li:first-child{
+    border-left: 1px solid rgb(0, 0, 0);
+}
+.header ul li a{
+    display: block;
+}
+.header_img{
+    text-align: center;
+}
+.header_img img{
+    margin: auto;
+    display: inline-block;
+    width: 1200px;
+    height: auto;
+}
+.project .serviceall{
+    justify-content: space-between;
+    display: flex;
+}
+.project .serviceall .service{
+    width: 380px;
+    text-align: center;
+}
+.project h2{
+    text-decoration: underline;
+    text-decoration-color: orange;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.project .service img{
+    width: auto;
+    height: 300px;
+    margin-bottom: 20px;
+}
+.project .service .ttl{
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.project .service .explain{
+    margin-bottom: 20px;
+}
+.check .explain h2{
+    text-decoration: underline;
+    text-decoration-color: orange;
+}
+.check .explain p{
+    margin-bottom: 30px;
+}
+.check{
+    text-align: center;
+}
+.check .number .nail{
+    font-size: 18px;
+}
+.check .number .poop{
+    font-size: 18px;
+}
+.check .number .nail img{
+    margin-bottom: 20px;
+}
+.check .number .poop img{
+    height: 350px;
+    width: auto;
+}
+.check .number .poop h5{
+    font-size: 5px;
+    margin-top: 0%;
+    color: rgb(149, 99, 149);
+}
+.check .number .mouth{
+    font-size: 18px;
+}
+.check .number .nail li{
+    list-style: none;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.check .number .poop li{
+    list-style: none;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.check .number .mouth li{
+    list-style: none;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.check .number h3{
+    text-decoration: underline;
+    text-decoration-color: orange;
+}
+.btn{
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #378bf7;
+}
+.footer{
+    margin-top: 40px;    
+}
+.footer p{
+    font-size: 25px;
+}
+.footer .site{
+    text-decoration: underline;
+    text-decoration-color: rgb(154, 255, 154);
+    justify-content: space-between;
+    font-weight: bold;
+    display: flex;
+    font-size: 20px;
+}
+.footer .year{
+    text-align: center;
+    padding: 2px 0px 2px;
+    background-color: #378bf7;
+}
+.footer .year p{
+    font-size: 5px;
+}
